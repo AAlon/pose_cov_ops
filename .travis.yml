@@ -1,12 +1,11 @@
 sudo: required 
-dist: xenial 
 language: generic 
 compiler:
   - gcc
 notifications:
   webhooks:
     urls:
-      - https://hooks.chime.aws/incomingwebhooks/bb0cd3ed-1f0a-4438-b181-2deb4f85baf9?token=dXNqNXhsSnB8MXwzQ3lGSWtjVldMQlVMVHk5Q3FGcVM3OUJ2WHlXNFNmWEFXSm5GRkExbHJR
+      - https://hooks.chime.aws/incomingwebhooks/850e5a2b-fa8c-49d6-bfa3-3ece776da6f6?token=RDRob1lkSEF8MXxZVnEwTms4X09mamlhbEFFYU9lQ01FRFNoM2FTWGdFVm5xSTUtcGp6eHpR
     on_success: change
     on_failure: always
   email:
